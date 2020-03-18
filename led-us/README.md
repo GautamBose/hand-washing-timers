@@ -3,6 +3,8 @@ this version of the hand wash timer uses 5 LED's in a row to indicate how much t
 
 It is the most barebones version, requiring only a Ultrasonic Sensor, a microprocessor, LED's, and some resistors. 
 
+![led display for hand washing timer](https://github.com/GautamBose/hand-washing-timers/raw/master/assets/led-version.gif)
+
 ## Parts
 | Description        |                                                        |
 |--------------------|--------------------------------------------------------|
