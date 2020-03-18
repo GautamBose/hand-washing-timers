@@ -33,19 +33,19 @@ void loop() {
   distance = (duration * .0343) / 2;
   Serial.println(distance);
 
-  //  if (distance < 200) {
-  //    washCount++;
-  //  }
-  //  else {
-  //    washCount = 0;
-  //  }
-  //
-  //  if (washCount > 5) {
-  //    washCount = 0;
-  //    countUp();
-  //  }
-  //
-  //  delay(100);
+    if (distance < 200) {
+      washCount++;
+    }
+    else {
+      washCount = 0;
+    }
+  
+   if (washCount > 5) {
+     washCount = 0;
+      countUp();
+    }
+  
+   delay(100);
 }
 
 void countUp() {
@@ -60,21 +60,7 @@ void countUp() {
       Serial.println("tick");
     }
     digitalWrite(2, HIGH);
-
-
-    //    if (time > 16) {
-    //      if (currLEDstate) {
-    //        digitalWrite(2, HIGH);
-    //      }
-    //      else {
-    //
-    //        digitalWrite(2,  LOW);
-    //      }
-    //      currLEDstate = !currLEDstate;
-    //      if (time == 17) {
-    //        digitalWrite(2, HIGH);
-    //      }
-    //    }
+    
     if (time > 15) {
 
       if (currLEDstate) {
@@ -146,7 +132,6 @@ void countUp() {
     }
     delay(100);
   }
-  //Here is where any
   for (int i = pinRangeBottom; i <= pinRangeTop; i++) {
     digitalWrite(i, LOW);
   }
