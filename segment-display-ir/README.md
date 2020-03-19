@@ -6,3 +6,4 @@ This version of the hand wash timer uses a 14 segment display (so you can write 
 
 
 ## Wiring Diagram 
+![segment display wiring]
