@@ -15,4 +15,4 @@ It is the most bare-bones version, requiring only a Ultrasonic Sensor, a micropr
 
 ## Wiring Diagram
 
-[fritzing here](https://github.com/GautamBose/hand-washing-timers/blob/master/assets/led-version-wiring.png?raw=true)
+![fritzing here](https://github.com/GautamBose/hand-washing-timers/blob/master/assets/led-version-wiring.png?raw=true)
