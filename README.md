@@ -1,6 +1,6 @@
 # Hand Washing Timers
 
-[You can find more info about this project in our ful writeup here](https://www.hackster.io/331510/wash-a-lot-bot-a-diy-hand-washing-timer-2df500?auth_token=cbc8bba25bd3d1f15c4e32ee9d3fe3dd)
+[You can find more info about this project in our full writeup here](https://www.hackster.io/331510/wash-a-lot-bot-a-diy-hand-washing-timer-2df500?auth_token=cbc8bba25bd3d1f15c4e32ee9d3fe3dd)
 
 Using proper hand-washing technique is one of the five things you can do right now to help keep yourself and others healthy. The CDC recommends washing for 20 seconds, so while stuck at home, we made this DIY hand washing timer to help nudge everyone in the right direction. We call it - the Wash-A-Lot-Bot!
 
