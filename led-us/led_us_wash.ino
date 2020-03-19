@@ -1,7 +1,7 @@
 const int trigPin = 9;
 const int echoPin = 10;
 
-const int pinRangeBottom = 1;
+const int pinRangeBottom = 2;
 const int pinRangeTop = 6;
 int washCount = 0;
 

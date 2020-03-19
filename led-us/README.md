@@ -5,13 +5,11 @@ It is the most barebones version, requiring only a Ultrasonic Sensor, a micropro
 
 ![led display for hand washing timer](https://github.com/GautamBose/hand-washing-timers/raw/master/assets/led-version.gif)
 
-## Parts
-| Description        |                                                        |
-|--------------------|--------------------------------------------------------|
-| Adafruit Metro 328 | [Adafruit Link](https://www.adafruit.com/product/2488) |
-| Ultrasonic Sensor  | [Adafruit Link](https://www.adafruit.com/product/3942) |
-| LED's              | [Adafruit Link](https://www.adafruit.com/product/298)  |
-| Resistors          | [Adafruit Link](https://www.adafruit.com/product/2780) |
+## Parts We Used
+- Arduino 
+- 5 LED's (we used 5mm diffused green)
+- 220 ohm resistors
+- HC-SR04 Ultrasonic Sensor
 
 ## Wiring Diagram
-[fritzing here] 
+[fritzing here](https://github.com/GautamBose/hand-washing-timers/blob/master/assets/led-version-wiring.png?raw=true)

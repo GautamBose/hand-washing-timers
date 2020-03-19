@@ -48,7 +48,6 @@ void setup() {
   for (int i = pinRangeBottom; i <= pinRangeTop; i++) {
     pinMode(i, OUTPUT);
   }
-  //  Serial.println("Start typing to display!");
 }
 
 void loop() {
@@ -57,9 +56,8 @@ void loop() {
   if (filtered1 > 200) {
     countUp();
   }
-  // turn the ledPin on
+  
   Serial.println(filtered1);
-//  delay(100);
 }
 
 void intToDisplay(int i) {
@@ -101,13 +99,6 @@ void displayCompletionMessage() {
 void countUp() {
 
   Serial.println("Counting up");
-  //  int time = 20;
-  //  while (time > 0) {
-  //    intToDisplay(time);
-  //    time--;
-  //    Serial.println("tick");
-  //    delay(1000);
-  //  }
   alpha4.writeDigitAscii(1, '1');
   alpha4.writeDigitAscii(2, '9');
   alpha4.writeDisplay();
